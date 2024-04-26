@@ -1,0 +1,29 @@
+.box{
+	width:100%;
+	height:200px;
+	background-color:darkblue;
+	margin: 0 auto;
+	margin-bottom: 25px;
+}
+.boxer{
+	display: flex;
+	width:100%;
+	margin:auto;
+	margin-bottom: 25px;
+}
+ .boxe{
+	width:50%;
+	height:200px;
+	background-color:gray;
+	margin-right:10px;
+}
+.boxe1{
+	width:50%;
+	height:200px;
+	background-color:gray;
+	margin-right:10px;
+}
+.wraper{
+	width:50%;
+	margin:auto;
+}

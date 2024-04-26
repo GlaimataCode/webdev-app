@@ -1,0 +1,62 @@
+/*Reset All*/
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: arial;
+}
+/*
+	css -> Cascading style Sheet
+				#Modelu/ Style ba codigu HTML sira
+				=========================================
+				Tipu Kodigu CSS:
+				#Selector = Selesaun ba Kodigu HTML ne'ebe ita hakarak atu fo style ba
+				#Property = modelu ne'ebe ita hakarak atu fo ba kodigu ne'be ita selek onabort
+				#Value = valor ba Modelu ne'ebe ita fo
+				=========================================
+				Utilizasaun ba CSS:
+				#CSS inline = Css ne'ebe ita fo ita nia kodigu html hanesan atribute ida, Style=""
+				#Css Internal = Css ne'ebe ita fo kodigu html hanesan tag HTML ida, <Style></Style>
+				#CSS External = Css ne'ebe mak ita fo ba kodigu HTML, liu husi file seluk ho extensaun .css
+				==========================================================================================
+				Maneira Hakerek kodigu CSS
+				@Karik Property ida deit = Selector {Property : Value;}
+				@KArik iha Property rua ba Leten
+					Selector{
+						Property: Values;
+					}
+	====================================
+	SELCTOR:
+		Tag
+		Tag[attribute="value"]
+		id=#
+		class=.
+		extra:
+			pseudo class = :-Hover, Active, visited, link, target, fokus
+			Pseudo Element = ::-after, before, first-leter, first-Line
+*/
+h3{
+	color: blue;
+	text-align: center;
+}
+h2:Hover{
+	color: Red;
+}
+h3:active{
+	color:yellow;
+}
+h1{
+	color: salmon; 
+	text-align: center;
+}
+h1 a{
+	text-decoration: none;
+}
+a:hover{
+	color: green;
+}
+a:active{
+	color: red;
+}
+a:visited{
+	color: aqua;
+}
